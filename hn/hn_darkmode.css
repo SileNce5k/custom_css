@@ -1,0 +1,27 @@
+td[bgcolor="#ff6600"] {
+    background-color: #5a2400;
+    color: red;
+}
+
+body{
+    background-color: #262626;
+    color: #dedede;
+}
+
+table[id="hnmain"] {
+    background-color: #1e1e1e;
+    color: #dedede;
+}
+
+a{
+    color: #a4a4a4 !important;
+}
+
+input, textarea{
+    background-color: #262626;
+    border:1px solid #3a3a3a;
+    color: #dedede;
+}
+.c00.commtext{
+    color: #cfcfcf !important;
+}

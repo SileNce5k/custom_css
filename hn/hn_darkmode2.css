@@ -1,0 +1,91 @@
+:root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #262626;
+    --text-primary: #c0c0c0;
+    --text-secondary: #909090;
+    --link-color: #ff9966;
+    --link-visited: #cc7752;
+    --border-color: #404040;
+    --highlight-color: #5a2400;
+    --input-bg: #333333;
+}
+
+
+
+html, body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary);
+}
+
+
+@-webkit-keyframes none { 0% { } }
+@keyframes none { 0% { } }
+
+
+table[id="hnmain"] {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+
+td[bgcolor="#ff6600"] {
+    background-color: var(--highlight-color) !important;
+}
+
+
+a:link {
+    color: var(--link-color) !important;
+}
+
+a:visited {
+    color: var(--link-visited) !important;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+
+input, textarea {
+    background-color: var(--input-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--link-color);
+}
+
+
+.c00.commtext {
+    color: var(--text-primary) !important;
+}
+
+
+.score, .age a {
+    color: var(--text-secondary) !important;
+}
+
+
+.titleline a {
+    font-weight: 500;
+}
+
+
+td[bgcolor="#000000"] {
+    background-color: var(--border-color) !important;
+}
+
+
+.pagetop b {
+    color: var(--link-color) !important;
+}
+
+
+.subtext, .subtext a {
+    color: var(--text-secondary) !important;
+}
