@@ -1,0 +1,18 @@
+.html5-play-progress, .ytp-play-progress {
+   background: #FF0033 !important;
+}
+
+
+div.ytp-scrubber-button.ytp-swatch-background-color.ytp-scrubber-button-hover {
+  background: #FF0033 !important; 
+}
+div.ytp-scrubber-button.ytp-swatch-background-color {  
+  background: #FF0033 !important; 
+}
+div.ytd-thumbnail-overlay-resume-playback-renderer.style-scope {
+  background: #FF0033 !important;
+}
+
+div.YtProgressBarLineProgressBarPlayedRefresh.YtProgressBarLineProgressBarPlayed {
+    background: #FF0033 !important;
+}
